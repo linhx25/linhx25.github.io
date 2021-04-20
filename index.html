@@ -1,1 +1,109 @@
-Hi, I am Hengxu!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <link href="style/my.css" rel="stylesheet" type="text/css" />
+
+	<title>Hengxu(Hugh) Lin</title>
+	<script>
+	function copy(dest, source) {
+  		if(dest.source == source) {
+  		  dest.innerHTML = "";
+  		  dest.source = null;
+  		}
+  		else {
+  		  dest.innerHTML = source.innerHTML;
+  		  dest.source = source;
+  		}
+  		dest.blur();
+	}
+	</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script> 
+    $(function(){
+      $("#includepubs").load("publication.html"); 
+    });
+    </script>
+</head>
+
+<body>
+    <div class="container py-5 px-5">
+        <div class="row mb-4">
+            <div class="col-3">
+                <img src="figures/head_image.jpg" class="rounded float-left" height=250px>
+            </div>
+            <div class="col-9">
+                <div class="row">
+					<ul class="list-inline">
+					  <li class="list-inline-item align-top"><h2>Hengxu Lin</h2></li>
+					  <!-- <li class="list-inline-item align-middle"><img src="figures/name.png" height=40></li> -->
+					  <li class="list-inline-item align-middle"><small>(<a href="javascript:copy(note, pro)">How to pronounce?</a>)</small></li>
+                      <div id="note"></div>
+                      <div id="pro" style="display:none">
+                          <li><p>
+                            My first name Hengxu in English is the same pronunciation as "hen she"
+                            Or you can call me Hugh.
+                          </p></li>
+                      </div> 
+					</ul>
+                </div>
+                <div class="row">
+					<ul class="list-unstyled">
+                        <li>Master Student of
+                            <a href="https://math.nyu.edu/financial_mathematics/">Mathematics in Finance</a> @
+                            <a href="https://math.nyu.edu/dynamic/">The Courant Institute of Mathematical Sciences</a> 
+                        </li>
+                        <li>He/Him/His
+                        </li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <ul class="list-unstyled">
+                        <!-- <li>My Address</li> -->
+                        <li>hengxu.lin@nyu.edu</li>
+                    </ul>
+                </div>
+                <!-- <div class="row">
+                    <ul class="list-unstyled">
+                        <li>
+                            [<a href="docs/cv/cv-full.pdf">CV</a>]
+                            [<a href="https://scholar.google.com/"><font size="3">Google Scholar</font></a>]
+                        </li>
+                    </ul>
+                </div> -->
+            </div>
+        </div>
+
+        <div class="row">
+            <p>
+            Hi! I am Hengxu. I am a first year Master student in the Courant Institute of Mathematical Sciences at New York University. 
+            I got my Bachelor degrees at Sun Yat-sen University in China, majored in Applied Mathematics(@School of Mathematics) and Accounting(@Sun Yat-sen Business School)  
+            <br>
+            I am data researcher passionate about knowing why and perseverant to solve problems. 
+            My current goal is to discover knowledge behind financial data and to secure reliable Alpha with data mining.
+            Recent research interests include:
+            <br>
+            (1) <strong>Machine Learning and Financial Data Mining</strong>:
+            What makes the machine learning algorithms reliable for financial data? How are the machine learning models best designed for financial data? Including alternative data from multiple sources.
+            <br>
+            (2) <strong>Portfolio Optimization</strong>:
+            How can we leverage give Alpha with appropriate portfolio optimization technique to empower the performance? How can the performance of Returns be explained by these models?
+            </p>
+        </div>
+
+        
+    </div>
+
+</body>
