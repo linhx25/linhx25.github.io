@@ -1,0 +1,185 @@
+<!-- Fork from https://tyleransom.github.io/ -->
+<!doctype html>
+<html lang="en">
+  <head>
+  <script src="https://use.fontawesome.com/baff6f55f5.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hengxu Lin's Research</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-29643011-3', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <script>
+      function copy(dest, source) {
+          if(dest.source == source) {
+            dest.innerHTML = "";
+            dest.source = null;
+          }
+          else {
+            dest.innerHTML = source.innerHTML;
+            dest.source = source;
+          }
+          dest.blur();
+      }
+    </script>
+
+    <!-- For all browsers -->
+    <link rel="stylesheet" href="assets/css/academicons.min.css"/>
+    <link rel="stylesheet" href="assets/css/academicons.css"/>
+    
+    <style>
+      button.accordion {
+      font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      cursor: pointer;
+      padding: 0px;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 100%;
+      transition: 0.3s;
+      background-color: #f8f8f8;
+      }
+      button.accordion.active, button.accordion:hover {
+      background-color: #f8f8f8;
+      }
+      button.accordion:after {
+      content: " [+] ";
+      font-size: 90%;
+      color:#777;
+      float: left;
+      margin-left: 1px;
+      }
+
+      button.accordion.active:after {
+      content: " [\2212] ";
+      }
+      div.panel {
+      padding: 0 20px;
+      margin-top: 5px;
+      display: none;
+      background-color: white;
+      font-size: 100%;
+      }
+      div.panel.show {
+      display: block !important;
+      }
+      .social-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Hengxu Lin <small>(<a href="javascript:copy(note, pro)">Pronounciation</a>)</h1> 
+        <div id="note"></div>
+        <div id="pro" style="display:none">
+            <p>My first name Hengxu in English is the same pronunciation as "hen she". Or call me Hugh.</p>
+        </div> 
+        <p>Quantitative Researcher<br>
+          <a href="https://math.nyu.edu/financial_mathematics/">Mathematics in Finance</a><br>
+          <a href="https://math.nyu.edu/dynamic/">NYU Courant</a> 
+        </p>
+        <p>Research Affiliate<br><a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/">Microsoft Research Asia</a></p>
+        <h3><a href="https://linhx25.github.io/">Home</a></h3>
+        <h3><a href="https://linhx25.github.io/research.html">Research</a></h3>
+        <h3><a href="">CV</a></h3>  
+        <h3><a href="">Professional Experience</a></h3> 
+        <!-- <h3><a href="">Teaching</a></h3> -->
+        <h3><a href="https://linhx25.github.io/personal.html">Personal</a></h3>
+    <b>Social</b><br>
+        <div class="social-row">
+          <a href="mailto:hengxu.lin@nyu.edu" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-square"></i> Email</a><br>
+          <!-- <a href="https://scholar.google.com/citations?user=eohlTTcAAAAJ&hl=en" target="_blank"><i class="ai ai-fw ai-google-scholar-square"></i> Scholar</a><br>
+          <a href="https://orcid.org/0000-0002-6910-0363"><i class="ai ai-fw ai-orcid-square"></i> ORCID</a><br>
+          <a href="http://ideas.repec.org/f/pra541.html"><i class="fa fa-fw fa-share-alt-square"></i> RePEc</a><br> -->
+          <a href="https://github.com/linhx25"><i class="fa fa-fw fa-github-square"></i> GitHub</a><br>
+          <!-- <a href="http://twitter.com/tyleransom" class="author-social" target="_blank"><i class="fa fa-fw fa-twitter-square"></i> Twitter</a><br> -->
+          <a href="https://www.linkedin.com/in/hengxu-lin-1045bb139/?locale=en_US" class="author-social" target="_blank"><i class="fa fa-fw fa-linkedin-square"></i> LinkedIn</a><br>
+          <br>
+        </div>
+        <br>
+
+    <p><b>Contact:</b><br>Microsoft Research Asia<br>11232, Building 2, No.5 Dan Ling Street<br>Haidian District, Beijing, China<br>[Pronouns: He/Him/His]</p>
+    <!-- <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p> -->
+      </header>
+      <section>
+
+    <h2><a id="published-papers-updated" class="anchor" href="#publications" aria-hidden="true"><span class="octicon octicon-link"></span></a>Research Papers</h2>
+    <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="">Learning Multiple Stock Trading Patterns with Temporal Roouting Adaptor and Optimal Transport</a> <br> with <a href="">Dong Zhou</a>, <a href="">Weiqing Liu, and <a href="">Jiang Bian</a><br> 
+      <i>In Processing of a Conference</i>, Forthcoming <br>
+      <button class="accordion"> 
+    Abstract   
+    </button>   
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> 
+      Successful stock investment relies on good prediction of the future movement of the stock price. Recently, machine learning based solutions have shown their capacity to give more accurate stock prediction and become indispensable components in modern quantitative investment systems. However, existing methods neglect the existence of diverse trading patterns1 in the stock market, which limits their ability to achieve better stock prediction performance. In this paper, we first propose Temporal Routing Adaptor (TRA) to empower existing stock prediction models with the ability to model multiple stock trading patterns. Essentially, TRA is a lightweight extension layer that consists of a set of independent predictors for learning multiple patterns, as well as a router to assign samples to different predictors for training as well as inference. The main challenge for effectively training TRA based models is the lack of explicit pattern identifiers. To tack this challenge, we design a learning algorithm based on optimal transport to cluster samples into multiple patterns and parameterize the router to predict the assignment through an auxiliary regularization loss. Experiments on the stock ranking task with real-world stock market data show that compared to the best of state-of-the-art baselines, the proposed method can improve information coefficient (IC) from 0.055 to 0.063 and achieve 3.3% higher annualized return with lower risk.  
+    </p></div><br>
+
+    <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="">Black-Litterman Assest Allocation with Generative Adverserial Networks</a> <br> 
+      <i>Undergrad Thesis</i>, 2020 <br>
+      <button class="accordion"> Abstract   </button>   
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> 
+      Coming soon.
+    </p></div><br>
+
+    <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="">Readablity, Opaqueness and Crash Risk</a> <br> 
+      <i>Undergrad Thesis (Best Paper)</i>, 2019 <br>
+      <button class="accordion"> Abstract   </button>   
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> 
+      Coming soon.
+    </p></div><br>
+
+    <hr>
+
+    <h2><a id="recent-projects-updated" class="anchor" href="#projetcs" aria-hidden="true"><span class="octicon octicon-link"></span></a>Research Projects</h2>
+    <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="http://www.kaggle.com/c/pubg-finish-placement-prediction/leaderboard">Kaggle’s PUBG Machine Learning Prediction</a> <br> with <a href="">Teams of SYSU</a> <br> 
+      <button class="accordion"> Overview   </button>     
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> (i) Feature Engineering: extracted, combined features and tested linear/non-linear models with regularization in pre-experiment; (ii) Implemented Random Forest, Genetic Algorithm, Particle Swarm and GBDT in Python for prediction, with 1.95% MAE; (iii) Ranked Top 1% in Kaggle’s Project competition</p></div><br>
+    
+    <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" >What Influences Firms' Cloud Migration?</a> <br> with Jiangken Lin, Jiayu Chi <br> 
+      <button class="accordion"> Overview   </button>     
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> Coming soon.</p></div><br>
+    
+    <hr>
+
+    <h2><a id="works-in-progress" class="anchor" href="#workinprogress" aria-hidden="true"><span class="octicon octicon-link"></span></a>Works in Progress</h2>
+
+    <p style="margin:0"> <b>Gate Neural Networks with Bi-level Optimization</b> <br> with <a href="">Dong Zhou</a>. <br><button class="accordion">
+      Abstract
+    </button>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> 
+      Coming soon.
+    </p></div><br>
+
+    
+      </section>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    <script> 
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].onclick = function(){
+            this.classList.toggle("active");
+            this.parentNode.nextElementSibling.classList.toggle("show");
+      }
+    }
+    </script>
+  </body>
+</html>
