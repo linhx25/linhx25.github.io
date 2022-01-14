@@ -103,7 +103,7 @@
         <h3><a href="https://linhx25.github.io/coursework.html">Selected Coursework</a></h3>
         <!-- <h3><a href="">Teaching</a></h3> -->
         <h3><a href="https://linhx25.github.io/personal.html">Personal</a></h3>
-    <b>Social</b><br>
+        <b>Social</b><br>
         <div class="social-row">
           <a href="mailto:hl3541@gsb.columbia.edu" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-square"></i> Email</a><br>
           <a href="https://scholar.google.com/citations?hl=en&user=LO2rn-wAAAAJ" target="_blank"><i class="ai ai-fw ai-google-scholar-square"></i> Scholar</a><br>
@@ -116,97 +116,118 @@
         </div>
         <br>
 
-    <p><b>Contact:</b><br>Columbia University<br>3022 Broadway<br>New York, New York<br>[Pronouns: He/Him/His]</p>
+        <p><b>Contact:</b><br>Columbia University<br>3022 Broadway<br>New York, New York<br>[Pronouns: He/Him/His]</p>
     
-    <!-- <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p> -->
+        <!-- <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p> -->
       </header>
       <section>
 
-    <h2><a id="published-papers-updated" class="anchor" href="#publications" aria-hidden="true"><span class="octicon octicon-link"></span></a>Research Papers</h2>
-    <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://linhx25.github.io/research/DeepRM.pdf">Deep Risk Model: A Deep Learning Solution for Mining Latent Risk Factors to Improve Covariance Matrix Estimation</a> 
-      <br> <a href="https://linhx25.github.io/">Hengxu Lin</a>, <a href="https://github.com/evanzd">Dong Zhou</a>, <a href="https://www.microsoft.com/en-us/research/people/weiqiliu/">Weiqing Liu</a>, and <a href="https://www.microsoft.com/en-us/research/people/jibian/">Jiang Bian</a><br> 
-      <i>International Conference of AI in Finance (ACM ICAIF)</i>, 2021 <br><button class="accordion"> 
-        Abstract   
-        </button>   
-        <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> Modeling and managing portfolio risk is perhaps the most important step to achieve growing and preserving investment performance. Within the modern portfolio construction framework that built on Markowitz's theory, the covariance matrix of stock returns is required to model the portfolio risk. Traditional approaches to estimate the covariance matrix are based on human designed risk factors, which often requires tremendous time and effort to design better risk factors to improve the covariance estimation. In this work, we formulate the quest of mining risk factors as a learning problem and propose a deep learning solution to effectively "design" risk factors with neural networks. The learning objective is carefully set to ensure the learned risk factors are effective in explaining stock returns as well as have desired orthogonality and stability. Our experiments on the stock market data demonstrate the effectiveness of the proposed method: our method can obtain 1.9% higher explained variance measured by R2 and also reduce the risk of a global minimum variance portfolio. Incremental analysis further supports our design of both the architecture and the learning objective. </p></div>
-        <p style="margin:0"><button class="accordion">
-        Code and Datasets
-        </button>
-        <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> <a href="">GitHub</a>, coming soon. </p></div>
-        <p style="margin:0"><button class="accordion">
-        Other Version
-        </button>
-        <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> 
-          <a href="https://arxiv.org/abs/2107.05201">Arxiv Version</a> <br> 
-          <a href="https://www.microsoft.com/en-us/research/publication/deep-risk-model-a-deep-learning-solution-for-mining-latent-risk-factors-to-improve-covariance-matrix-estimation/">Microsoft Research Publication</a> <br>
-    </p></div><br>
+        <h2><a id="published-papers-updated" class="anchor" href="#publications" aria-hidden="true"><span class="octicon octicon-link"></span></a>Research Papers</h2>
+        <p style="margin:0"> 
+          <a style="margin:0; font-size:100%; font-weight:bold" href="https://linhx25.github.io/research/DeepRM.pdf">Deep Risk Model: A Deep Learning Solution for Mining Latent Risk Factors to Improve Covariance Matrix Estimation</a> 
+          <br> 
+          <a href="https://linhx25.github.io/">Hengxu Lin</a>, <a href="https://github.com/evanzd">Dong Zhou</a>, <a href="https://www.microsoft.com/en-us/research/people/weiqiliu/">Weiqing Liu</a>, and <a href="https://www.microsoft.com/en-us/research/people/jibian/">Jiang Bian</a>
+          <br> 
+          <i>International Conference of AI in Finance (ACM ICAIF)</i>, 2021 
+          <br>
 
-    <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://linhx25.github.io/research/KDD21.pdf">Learning Multiple Stock Trading Patterns with Temporal Routing Adaptor and Optimal Transport</a> 
-      <br> <a href="https://linhx25.github.io/">Hengxu Lin</a>, <a href="https://github.com/evanzd">Dong Zhou</a>, <a href="https://www.microsoft.com/en-us/research/people/weiqiliu/">Weiqing Liu</a>, and <a href="https://www.microsoft.com/en-us/research/people/jibian/">Jiang Bian</a><br> 
-      <i>Knowledge Discovery and Data Mining (ACM SIGKDD)</i>, 2021<br>
-        <button class="accordion"> 
-        Abstract   
-        </button>   
-        <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> Successful quantitative investment usually relies on precise pre- dictions of the future movement of the stock price. Recently, ma- chine learning based solutions have shown their capacity to give more accurate stock prediction and become indispensable compo- nents in modern quantitative investment systems. However, the i.i.d. assumption behind existing methods is inconsistent with the existence of diverse trading patterns1 in the stock market, which inevitably limits their ability to achieve better stock prediction performance. In this paper, we propose a novel architecture, Tem- poral Routing Adaptor (TRA), to empower existing stock prediction models with the ability to model multiple stock trading patterns. Essentially, TRA is a lightweight module that consists of a set of independent predictors for learning multiple patterns as well as a router to dispatch samples to different predictors. Nevertheless, the lack of explicit pattern identifiers makes it quite challenging to train an effective TRA-based model. To tackle this challenge, we further design a learning algorithm based on Optimal Transport (OT) to obtain the optimal sample to predictor assignment and effectively optimize the router with such assignment through an auxiliary loss term. Experiments on the real-world stock ranking task show that compared to the state-of-the-art baselines, e.g., Attention LSTM and Transformer, the proposed method can improve information coefficient (IC) from 0.053 to 0.059 and 0.051 to 0.056 respectively. Our dataset and code used in this work are publicly available. </p></div>
-        <p style="margin:0"><button class="accordion">
-        Code and Datasets
-        </button>
-        <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> <a href="https://github.com/microsoft/qlib/tree/main/examples/benchmarks/TRA">GitHub</a> </p></div>
-        <p style="margin:0"><button class="accordion">
-        Other Version
-        </button>
-        <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> 
-          <a href="https://dl.acm.org/doi/10.1145/3447548.3467358">KDD21 Accepted Version and Video</a> <br> 
-          <a href="https://linhx25.github.io/research/KDD21_poster.pdf">Poster</a> <br> 
-          <a href="https://linhx25.github.io/research/KDD21_slides.pdf">Slides</a> <br> 
-          <a href="https://arxiv.org/abs/2106.12950">Arxiv Version</a> <br> 
-          <a href="https://www.microsoft.com/en-us/research/publication/learning-multiple-stock-trading-patterns-with-temporal-routing-adaptor-and-optimal-transport/">Microsoft Research Publication</a> 
-        </p></div><br>    
+          <button class="accordion"> Abstract </button>   
+          <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> Modeling and managing portfolio risk is perhaps the most important step to achieve growing and preserving investment performance. Within the modern portfolio construction framework that built on Markowitz's theory, the covariance matrix of stock returns is required to model the portfolio risk. Traditional approaches to estimate the covariance matrix are based on human designed risk factors, which often requires tremendous time and effort to design better risk factors to improve the covariance estimation. In this work, we formulate the quest of mining risk factors as a learning problem and propose a deep learning solution to effectively "design" risk factors with neural networks. The learning objective is carefully set to ensure the learned risk factors are effective in explaining stock returns as well as have desired orthogonality and stability. Our experiments on the stock market data demonstrate the effectiveness of the proposed method: our method can obtain 1.9% higher explained variance measured by R2 and also reduce the risk of a global minimum variance portfolio. Incremental analysis further supports our design of both the architecture and the learning objective. </p></div>
+            
+          <p style="margin:0"><button class="accordion">Code and Datasets</button>
+          <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> <a href="">GitHub</a>, coming soon. </p></div>
+            
+          <p style="margin:0"><button class="accordion">Other Version</button>
+          <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;">
+            <p> 
+              <a href="https://arxiv.org/abs/2107.05201">Arxiv Version</a> <br> 
+              <a href="https://www.microsoft.com/en-us/research/publication/deep-risk-model-a-deep-learning-solution-for-mining-latent-risk-factors-to-improve-covariance-matrix-estimation/">Microsoft Research Publication</a> <br>
+            </p>
+          </div>
+        </p>
 
-    <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" >Black-Litterman Assest Allocation with Generative Adversarial Networks</a> <br> 
-      <i>Undergrad Thesis</i>, 2020 <br>
-      <button class="accordion"> Abstract   </button>   
-    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> 
-      The prior returns’ distribution and the views of the Black-Litterman assets allocation model has been researched for years. With the development of deep learning, the generative adversarial network (GAN) was used in stock prediction recently. The research originally builds an asset allocation framework based on the Black-Litterman assets allocation model and risk parity model, thereafter constructs a GAN, whose generator and discriminator are different LSTM networks. This paper choose data from the constituent stocks of the CSI 500 Index between 2014 and 2019. Empirical results show that under this framework, the trading strategy gains 131% of annual absolute return in the 4-year back-test and only -27.8% max drawdown ratio. The framework successfully enhances the CSI500 Index from both high absolute return and low risk.
-    </p></div><br>
+        <p style="margin:0"> 
+          <a style="margin:0; font-size:100%; font-weight:bold" href="https://linhx25.github.io/research/KDD21.pdf">Learning Multiple Stock Trading Patterns with Temporal Routing Adaptor and Optimal Transport</a>
+          <br> 
+          <a href="https://linhx25.github.io/">Hengxu Lin</a>, <a href="https://github.com/evanzd">Dong Zhou</a>, <a href="https://www.microsoft.com/en-us/research/people/weiqiliu/">Weiqing Liu</a>, and <a href="https://www.microsoft.com/en-us/research/people/jibian/">Jiang Bian</a>
+          <br> 
+          <i>Knowledge Discovery and Data Mining (ACM SIGKDD)</i>, 2021
+          <br>
 
-    <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" >Readablity, Opaqueness and Crash Risk</a> <br> 
-      <i>Undergrad Thesis (Best Paper)</i>, 2019 <br>
-      <button class="accordion"> Abstract   </button>   
-    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> 
-      This paper empirically tests the relationship between the readability of the 10-K annual report, the transparency of financial statements and the crash risk using data from US firms that published 10-K between 1994 and 2013. The research shows that: (1) annual reports of firms with lower transparency is harder to read the MD&A Section; (2) firms with lower readability in 10-K are more prone to stock price crashes. By using Fog index from the computational linguistics, this paper links readability with earnings management, and helps further understand the impact of readability on stock price crash. It is of great significance for investors to identify crash risks and prevent stock prices from collapsing.
-    </p></div><br>
+          <button class="accordion"> Abstract </button>   
+          <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> Successful quantitative investment usually relies on precise pre- dictions of the future movement of the stock price. Recently, ma- chine learning based solutions have shown their capacity to give more accurate stock prediction and become indispensable compo- nents in modern quantitative investment systems. However, the i.i.d. assumption behind existing methods is inconsistent with the existence of diverse trading patterns1 in the stock market, which inevitably limits their ability to achieve better stock prediction performance. In this paper, we propose a novel architecture, Tem- poral Routing Adaptor (TRA), to empower existing stock prediction models with the ability to model multiple stock trading patterns. Essentially, TRA is a lightweight module that consists of a set of independent predictors for learning multiple patterns as well as a router to dispatch samples to different predictors. Nevertheless, the lack of explicit pattern identifiers makes it quite challenging to train an effective TRA-based model. To tackle this challenge, we further design a learning algorithm based on Optimal Transport (OT) to obtain the optimal sample to predictor assignment and effectively optimize the router with such assignment through an auxiliary loss term. Experiments on the real-world stock ranking task show that compared to the state-of-the-art baselines, e.g., Attention LSTM and Transformer, the proposed method can improve information coefficient (IC) from 0.053 to 0.059 and 0.051 to 0.056 respectively. Our dataset and code used in this work are publicly available. </p></div>
+          
+          <p style="margin:0"><button class="accordion">Code and Datasets</button></p>
+          <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> <a href="https://github.com/microsoft/qlib/tree/main/examples/benchmarks/TRA">GitHub</a> </p></div>
+          
+          <p style="margin:0"><button class="accordion">Other Version</button></p>
+          <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;">
+            <p> 
+              <a href="https://dl.acm.org/doi/10.1145/3447548.3467358">KDD21 Accepted Version and Video</a> <br> 
+              <a href="https://linhx25.github.io/research/KDD21_poster.pdf">Poster</a> <br> 
+              <a href="https://linhx25.github.io/research/KDD21_slides.pdf">Slides</a> <br> 
+              <a href="https://arxiv.org/abs/2106.12950">Arxiv Version</a> <br> 
+              <a href="https://www.microsoft.com/en-us/research/publication/learning-multiple-stock-trading-patterns-with-temporal-routing-adaptor-and-optimal-transport/">Microsoft Research Publication</a> 
+            </p>
+          </div>
+        </p>
 
-    <hr>
+        <p style="margin:0"> 
+          <a style="margin:0; font-size:100%; font-weight:bold" >Black-Litterman Assest Allocation with Generative Adversarial Networks</a> 
+          <br> 
+          <i>Undergrad Thesis</i>, 2020 
+          <br>
+          <button class="accordion"> Abstract   </button>   
+          <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> The prior returns` distribution and the views of the Black-Litterman assets allocation model has been researched for years. With the development of deep learning, the generative adversarial network (GAN) was used in stock prediction recently. The research originally builds an asset allocation framework based on the Black-Litterman assets allocation model and risk parity model, thereafter constructs a GAN, whose generator and discriminator are different LSTM networks. This paper choose data from the constituent stocks of the CSI 500 Index between 2014 and 2019. Empirical results show that under this framework, the trading strategy gains 131% of annual absolute return in the 4-year back-test and only -27.8% max drawdown ratio. The framework successfully enhances the CSI500 Index from both high absolute return and low risk.</p></div>
+        </p>
 
-    <h2><a id="recent-projects-updated" class="anchor" href="#projetcs" aria-hidden="true"><span class="octicon octicon-link"></span></a>Research Projects</h2>
-    <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="http://www.kaggle.com/c/pubg-finish-placement-prediction/leaderboard">Kaggle’s PUBG Machine Learning Prediction</a> 
-      <br> with Team of SYSU <br> 
-      <button class="accordion"> Overview   </button>     
-    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> (i) Feature Engineering: extracted, combined features and tested linear/non-linear models with regularization in pre-experiment; (ii) Implemented Random Forest, Genetic Algorithm, Particle Swarm and GBDT in Python for prediction, with 1.95% MAE; (iii) Ranked Top 1% in Kaggle’s Project competition</p></div><br>
-    
-    <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" >What Influences Firms' Cloud Migration?</a> 
-      <br> Jiangkeng Lin, <a href="https://linhx25.github.io/">Hengxu Lin</a>, Jiayu Chi <br> 
-      <button class="accordion"> Overview   </button>     
-    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;">
-      <p> (1) What factors will restrict enterprises from using public cloud migration technology? Unlike individuals, the use of cloud technology by enterprises is often affected by efficiency and usefulness, as well as by the constraints of the organization and the environment. In order to improve the efficiency of corporate ERP in the process of using public cloud migration, it is necessary to study the efficiency of corporate ERP from a new perspective, that is, to clarify which factors have a significant impact on the process of corporate migration to public cloud, and which ones The influence of factors is relatively small.
-        (2) Why are the mid-end and back-end parts of enterprise ERP migration slower in the public cloud? Enterprise ERP cloud migration is mainly divided into front-end, mid-end and back-end. From the current point of view, the front-end systems are more successful, but the back-end and mid-end are relatively slow. Therefore, it is necessary to use empirical research data to analyze the reasons, promote enterprises to better integrate with cloud services.
-          (3) To solve the defects of traditional methodology when upgrading traditional ERP system, the business logic reconstruction of cloud ERP system has solved the problem of insufficient business logic flexibility of ERP system.
-        </p></div><br>
-    
-    <hr>
+        <p style="margin:0"> 
+          <a style="margin:0; font-size:100%; font-weight:bold" >Readablity, Opaqueness and Crash Risk</a> 
+          <br> 
+          <i>Undergrad Thesis (Best Paper)</i>, 2019 
+          <br>
+          <button class="accordion"> Abstract   </button>   
+          <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> This paper empirically tests the relationship between the readability of the 10-K annual report, the transparency of financial statements and the crash risk using data from US firms that published 10-K between 1994 and 2013. The research shows that: (1) annual reports of firms with lower transparency is harder to read the MD&A Section; (2) firms with lower readability in 10-K are more prone to stock price crashes. By using Fog index from the computational linguistics, this paper links readability with earnings management, and helps further understand the impact of readability on stock price crash. It is of great significance for investors to identify crash risks and prevent stock prices from collapsing.</p></div>
+        </p>
 
-    <h2><a id="works-in-progress" class="anchor" href="#workinprogress" aria-hidden="true"><span class="octicon octicon-link"></span></a>Works in Progress</h2>
+        <hr>
 
-    <p style="margin:0"> <b>Data Mining of Music Genealogy</b> 
-      <br><a href="https://linhx25.github.io/">Hengxu Lin</a>  <br><button class="accordion">
-      Abstract
-    </button>
-    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> 
-      Coming soon.
-    </p></div><br>
+        <h2><a id="recent-projects-updated" class="anchor" href="#projetcs" aria-hidden="true"><span class="octicon octicon-link"></span></a>Research Projects</h2>
+        <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="http://www.kaggle.com/c/pubg-finish-placement-prediction/leaderboard">Kaggle's PUBG Machine Learning Prediction</a> 
+          <br> 
+          with Team of SYSU 
+          <br> 
+          <button class="accordion"> Overview   </button>     
+          <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> (i) Feature Engineering: extracted, combined features and tested linear/non-linear models with regularization in pre-experiment; (ii) Implemented Random Forest, Genetic Algorithm, Particle Swarm and GBDT in Python for prediction, with 1.95% MAE; (iii) Ranked Top 1% in Kaggle's Project competition</p></div>
+        </p>
+        
+        <p style="margin:0"> 
+          <a style="margin:0; font-size:100%; font-weight:bold" >What Influences Firms' Cloud Migration?</a> 
+          <br> 
+          Jiangkeng Lin, <a href="https://linhx25.github.io/">Hengxu Lin</a>, Jiayu Chi 
+          <br> 
+          <button class="accordion"> Overview   </button>     
+          <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;">
+            <p> (1) What factors will restrict enterprises from using public cloud migration technology? Unlike individuals, the use of cloud technology by enterprises is often affected by efficiency and usefulness, as well as by the constraints of the organization and the environment. In order to improve the efficiency of corporate ERP in the process of using public cloud migration, it is necessary to study the efficiency of corporate ERP from a new perspective, that is, to clarify which factors have a significant impact on the process of corporate migration to public cloud, and which ones The influence of factors is relatively small.
+                (2) Why are the mid-end and back-end parts of enterprise ERP migration slower in the public cloud? Enterprise ERP cloud migration is mainly divided into front-end, mid-end and back-end. From the current point of view, the front-end systems are more successful, but the back-end and mid-end are relatively slow. Therefore, it is necessary to use empirical research data to analyze the reasons, promote enterprises to better integrate with cloud services.
+                (3) To solve the defects of traditional methodology when upgrading traditional ERP system, the business logic reconstruction of cloud ERP system has solved the problem of insufficient business logic flexibility of ERP system.
+            </p>
+          </div>
+        </p>
 
-    
+        <hr>
+
+        <h2><a id="works-in-progress" class="anchor" href="#workinprogress" aria-hidden="true"><span class="octicon octicon-link"></span></a>Works in Progress</h2>
+
+        <p style="margin:0"> <b>Data Mining of Music Genealogy</b> 
+          <br>
+          <a href="https://linhx25.github.io/">Hengxu Lin</a> 
+          <br>
+          <button class="accordion">Abstract</button>
+          <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> Coming soon.</p></div>
+        </p>
+
+
       </section>
     </div>
     <script src="javascripts/scale.fix.js"></script>
