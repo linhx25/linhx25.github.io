@@ -1,0 +1,225 @@
+<!-- Fork from https://tyleransom.github.io/ -->
+<!doctype html>
+<html lang="en">
+  <head>
+  <script src="https://use.fontawesome.com/baff6f55f5.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hengxu Lin's Research</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-29643011-3', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <script>
+      function copy(dest, source) {
+          if(dest.source == source) {
+            dest.innerHTML = "";
+            dest.source = null;
+          }
+          else {
+            dest.innerHTML = source.innerHTML;
+            dest.source = source;
+          }
+          dest.blur();
+      }
+    </script>
+
+    <!-- For all browsers -->
+    <link rel="stylesheet" href="assets/css/academicons.min.css"/>
+    <link rel="stylesheet" href="assets/css/academicons.css"/>
+    
+    <style>
+      button.accordion {
+      font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      cursor: pointer;
+      padding: 0px;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 100%;
+      transition: 0.3s;
+      background-color: #f8f8f8;
+      }
+      button.accordion.active, button.accordion:hover {
+      background-color: #f8f8f8;
+      }
+      button.accordion:after {
+      content: " [+] ";
+      font-size: 90%;
+      color:#777;
+      float: left;
+      margin-left: 1px;
+      }
+
+      button.accordion.active:after {
+      content: " [\2212] ";
+      }
+      div.panel {
+      padding: 0 20px;
+      margin-top: 5px;
+      display: none;
+      background-color: white;
+      font-size: 100%;
+      }
+      div.panel.show {
+      display: block !important;
+      }
+      .social-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Hengxu Lin <small>(<a href="javascript:copy(note, pro)">Pronunciation</a>)</small></h1> 
+        <div id="note"></div>
+        <div id="pro" style="display:none">
+            <p>My first name Hengxu in English is the same pronunciation as "hen she".</p>
+        </div> 
+        <p>Quantitative Researcher<br>
+          <a href="https://business.columbia.edu/faculty/divisions/marketing">Marketing</a><br>
+        </p>
+        <p>Research Affiliate<br>
+          <a href="https://home.gsb.columbia.edu/">Columbia Business School</a><br> 
+          <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/">Microsoft Research</a></p>
+        <!-- <h3><a href="https://linhx25.github.io/">Home</a></h3> -->
+        <h3><a href="https://linhx25.github.io/#Research">Research</a></h3>
+        <h3><a href="https://linhx25.github.io/#phd_course">Selected Coursework</a></h3>
+        <h3><a href="https://linhx25.github.io/#teaching">Teaching</a></h3>
+        <h3><a href="https://linhx25.github.io/#personal">Personal</a></h3>
+        <h3><a href="https://linhx25.github.io/research/CV_HengxuLin.pdf">Resume</a></h3>  
+        <b>Social</b><br>
+        <div class="social-row">
+          <a href="mailto:hl3541@gsb.columbia.edu" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-square"></i> Email</a><br>
+          <a href="https://scholar.google.com/citations?hl=en&user=LO2rn-wAAAAJ" target="_blank"><i class="ai ai-fw ai-google-scholar-square"></i> Scholar</a><br>
+          <!-- <a href="https://orcid.org/0000-0002-6910-0363"><i class="ai ai-fw ai-orcid-square"></i> ORCID</a><br>
+          <a href="http://ideas.repec.org/f/pra541.html"><i class="fa fa-fw fa-share-alt-square"></i> RePEc</a><br> -->
+          <a href="https://github.com/linhx25"><i class="fa fa-fw fa-github-square"></i> GitHub</a><br>
+          <!-- <a href="http://twitter.com/tyleransom" class="author-social" target="_blank"><i class="fa fa-fw fa-twitter-square"></i> Twitter</a><br> -->
+          <a href="https://www.linkedin.com/in/hengxu-hugh-lin-1045bb139/?locale=en_US" class="author-social" target="_blank"><i class="fa fa-fw fa-linkedin-square"></i> LinkedIn</a><br>
+          <br>
+        </div>
+
+    <p><b>Contact:</b><br>Columbia Business School, <br>665 W 130th St, 770 Kravis Hall<br>New York, New York<br>[Pronouns: He/Him/His]</p>
+    <!-- Insert from clustrmaps: https://clustrmaps.com/profile -->
+    <!-- <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=a&t=n&d=S750uxEiJMEt1nVsJslTF1y2Ur_pYYKiBpFmTzAOZWA&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080'></script> -->
+
+    
+    <!-- Intro & About Me -->
+      </header>
+
+      <section>
+        <h2><a id="recent-projects-updated" class="anchor" href="#projetcs" aria-hidden="true"><span class="octicon octicon-link"></span></a>Past Research Work</h2>
+        <p style="margin:0"> 
+          <a style="margin:0; font-size:100%; font-weight:bold" href="">Evaluating Fairness in Sequential Decision Making</a> 
+          <br> 
+          <a href="https://jerryanunroj.github.io/">Jerry Anunrojwong</a>, <a href="https://linhx25.github.io/">Hengxu Lin</a>, <a href="https://wangtianyu61.github.io/index.html">Tianyu Wang</a>, Wenxin Zhang.
+          <br> 
+
+          <button class="accordion"> Abstract </button>   
+          <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> Despite contextual bandits' theoretical and empirical success in achieving optimal regret, decision-makers are increasingly concerned about fairness considerations to prevent disparate treatment across time and individuals. In this paper, we extensively evaluate different fairness metrics of contextual bandit algorithms. We leverage on the real-world classification and pricing datasets where fairness is a concern to empirically investigate how these fairness metrics and associated proposed algorithms can bring different practical implications across time. Furthermore, we propose an algorithm that enjoys better fairness-regret frontier compared with existing fairness-aware and unfair algorithms in the empirical performance. </p></div>
+        </p>
+        
+        <p style="margin:0"> 
+          <a style="margin:0; font-size:100%; font-weight:bold" href="">Do Unique Product Images Speak to Customers? Evidence from Airbnb</a> 
+          <br> 
+          <a href="https://linhx25.github.io/">Hengxu Lin</a>, working with <a href=https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1175206>Shunyuan Zhang</a>.
+          <br> 
+
+          <button class="accordion"> Abstract </button>   
+          <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> The research studies the uniqueness of Airbnb images and its relationship to the consumer response reflected in property demand. I focus on two questions: 1) how does an image unveil the uniqueness of the Airbnb property? 2) How is the uniqueness related to consumer response? I propose a generalizable machine learning approach to learn uniqueness from the product images, which is further linked to product distinctiveness. I implement the methodology and analysis of Airbnb listing images. The findings may suggest how the hosts can make their Airbnb listing stand out by taking more unique photographs. This research fills the literature gap on uniqueness between behavior (need for uniqueness) and quantitative (measurement of uniqueness) sides. </p></div>
+        </p>
+        
+        <p style="margin:0"> 
+          <a style="margin:0; font-size:100%; font-weight:bold" href="">Dynamic Fair Lending in Online Auto Loan Market</a> 
+          <br> 
+          <i>Master Thesis</i>, 2023 
+          <br> 
+
+          <button class="accordion"> Abstract </button>   
+          <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> The paper addresses lending discrimination against minority consumers in the online auto-loan market, where data and algorithmic biases can lead to unfair lending decisions. I propose a novel fair contextual bandit model that incorporates static group unfairness and temporal individual unfairness as constraints in the learning objective. The model achieves comparable prediction accuracy to other benchmarks while significantly improving multiple fairness metrics. The optimal policy balances temporal and group unfairness by adjusting the tradeoff and lookback horizon in an adaptive way. Specifically, the model accepts more minority and low-income borrowers and values borrowers with higher education years and older age. Overall, the proposed method provides a promising technical solution to mitigate consumer lending discrimination. </p></div>
+        </p>
+
+        <p style="margin:0"> 
+          <a style="margin:0; font-size:100%; font-weight:bold" >Black-Litterman Assest Allocation with Generative Adversarial Networks</a> 
+          <br> 
+          <i>Undergrad Thesis</i>, 2020 
+          <br>
+          <button class="accordion"> Abstract   </button>   
+          <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> The prior returns' distribution and the views of the Black-Litterman assets allocation model has been researched for years. With the development of deep learning, the generative adversarial network (GAN) was used in stock prediction recently. The research originally builds an asset allocation framework based on the Black-Litterman assets allocation model and risk parity model, thereafter constructs a GAN, whose generator and discriminator are different LSTM networks. This paper chooses data from the constituent stocks of the CSI 500 Index between 2014 and 2019. Empirical results show that under this framework, the trading strategy gains 131% of annual absolute return in the 4-year back-test and only -27.8% max drawdown ratio. The framework successfully enhances the CSI500 Index from both high absolute return and low risk.</p></div>
+        </p>
+
+        <p style="margin:0"> 
+          <a style="margin:0; font-size:100%; font-weight:bold" >Readability, Opaqueness and Crash Risk</a> 
+          <br> 
+          <i>Undergrad Thesis (Best Paper)</i>, 2019 
+          <br>
+          <button class="accordion"> Abstract   </button>   
+          <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> This paper empirically tests the relationship between the readability of the 10-K annual report, the transparency of financial statements and the crash risk using data from US firms that published 10-K between 1994 and 2013. The research shows that: (1) annual reports of firms with lower transparency is harder to read the MD&A Section; (2) firms with lower readability in 10-K are more prone to stock price crashes. By using Fog index from the computational linguistics, this paper links readability with earnings management, and helps further understand the impact of readability on stock price crash. It is of great significance for investors to identify crash risks and prevent stock prices from collapsing.</p></div>
+        </p>
+
+        <hr>
+
+        <h2><a id="recent-projects-updated" class="anchor" href="#projetcs" aria-hidden="true"><span class="octicon octicon-link"></span></a>Research Projects</h2>
+        <p style="margin:0"> 
+          <a style="margin:0; font-size:100%; font-weight:bold" href="">Evolution of Marketing Thoughts: A Graph Neural Network Approach</a> 
+          <br> 
+          <a href="https://linhx25.github.io/">Hengxu Lin</a>, working with <a href=https://www8.gsb.columbia.edu/cbs-directory/detail/kj7>Kamel Jedidi</a>
+          <br> 
+
+          <button class="accordion"> Abstract </button>   
+          <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> This research studies how marketing thoughts emerge and spread between academia and industry over time. We applied embedding topic modeling on academic and practitioner articles and plan to use a graph neural network to build a genealogical graph that temporally links academic and practitioners’ articles.</p></div>
+        </p>
+
+        <hr>
+
+      </section>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    <script> 
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].onclick = function(){
+            this.classList.toggle("active");
+            this.parentNode.nextElementSibling.classList.toggle("show");
+      }
+    }
+    </script>
+  </body>
+</html>
+<!-- <p style="margin:0"> 
+          <a style="margin:0; font-size:100%; font-weight:bold" href="">Evaluate Fairness in Sequential Decision-making</a> 
+          <br> 
+          <a href="https://linhx25.github.io/">Hengxu Lin</a>
+          <br> 
+
+          <button class="accordion"> Abstract </button>   
+          <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> We focus on the problem of investigating fairness under sequential decision-making setup, more specifically, the contextual bandit. Contextual bandit algorithms are commonly used in practical applications such as dynamic pricing and interactive recommendation. At each round, one individual comes and the decision-maker needs to take action based on observations so far. Despite contextual bandits' theoretical and empirical success in achieving optimal regret, decision-makers are increasingly concerned about fairness considerations to prevent disparate treatment across time and individuals. In spite of algorithms satisfying different fairness metrics, the practical behavior between these fairness-aware algorithms and classical regret-optimal algorithms is poorly understood. It is unclear how different fairness metrics play a role in the specific behavior and performance results of different algorithms in sequential decision-making. In this paper, we extensively evaluate different fairness metrics of contextual bandit algorithms. We leverage on the real-world classification and pricing datasets where fairness is a concern to empirically investigate how these fairness metrics and associated proposed algorithms can bring different practical implications across time. Through this, we obtain meaningful fairness metrics under the sequential decision-making setup and thus develop a fairness-regret frontier based on performance across empirical results. Furthermore, we propose an algorithm that enjoys better fairness-regret frontier compared with existing fairness-aware and unfair algorithms in the empirical performance. </p></div>
+        </p>
+
+        <p style="margin:0"> 
+          <a style="margin:0; font-size:100%; font-weight:bold" href="">Do Unique Product Images Speak to Customers? Evidence from Airbnb</a> 
+          <br> 
+          <a href="https://linhx25.github.io/">Hengxu Lin</a>, working with Prof. <a href=https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1175206>Shunyuan Zhang</a>.
+          <br> 
+
+          <button class="accordion"> Abstract </button>   
+          <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> The research studies the uniqueness of Airbnb images and its relationship to the consumer response reflected in property demand. I focus on two questions: 1) how does an image unveil the uniqueness of the Airbnb property? 2) How is the uniqueness related to consumer response? I propose a generalizable machine learning approach to learn uniqueness from the product images, which is further linked to product distinctiveness. I implement the methodology and analysis of Airbnb listing images. The findings may suggest how the hosts can make their Airbnb listing stand out by taking more unique photographs. This research fills the literature gap on uniqueness between behavior (need for uniqueness) and quantitative (measurement of uniqueness) sides. </p></div>
+        </p> -->
